@@ -1,0 +1,12 @@
+[
+  {"id": "initial_access", "text": "Initial access: Office applications launching command shells or script interpreters."},
+  {"id": "credential_access", "text": "Credential access: LSASS memory dumping or password extraction."},
+  {"id": "defense_evasion", "text": "Defense evasion: Disabling auditing, stopping antivirus, or clearing logs."},
+  {"id": "persistence", "text": "Persistence: Registry run-key changes or suspicious scheduled tasks."},
+  {"id": "lolbins", "text": "LOLBins: Obfuscated PowerShell or certutil downloads."},
+  {"id": "lateral_movement", "text": "Lateral movement: Suspicious RDP or WMI remote execution."},
+  {"id": "command_and_control", "text": "Command and control: Unexpected outbound network connections."},
+  {"id": "exfiltration_preparation", "text": "Data exfiltration preparation: Archiving sensitive directories."},
+  {"id": "privilege_escalation", "text": "Privilege escalation: Service manipulation, DLL hijacking, or process injection."},
+  {"id": "ransomware", "text": "Ransomware: Mass file modifications, encryption activity, or shadow-copy deletion."}
+]

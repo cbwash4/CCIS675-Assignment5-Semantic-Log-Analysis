@@ -1,0 +1,9 @@
+[
+ {"synthetic":true,"EventID":1,"UtcTime":"2018-08-20T10:00:00Z","Image":"C:\\Windows\\System32\\cmd.exe","ParentImage":"C:\\Program Files\\Microsoft Office\\WINWORD.EXE","CommandLine":"cmd.exe /c whoami","nested":{"tags":["test","office"]}},
+ {"synthetic":true,"EventID":3,"UtcTime":"2018-08-20T10:01:00Z","Image":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","SourceIp":"192.0.2.10","DestinationIp":"198.51.100.20","DestinationPort":443},
+ {"synthetic":true,"EventID":11,"UtcTime":"2018-08-20T10:02:00Z","Image":"C:\\Windows\\System32\\notepad.exe","TargetFilename":"C:\\Users\\test\\notes.txt"},
+ {"synthetic":true,"EventID":13,"UtcTime":"2018-08-20T10:03:00Z","Image":"C:\\Windows\\System32\\reg.exe","CommandLine":"reg add HKCU\\Software\\Microsoft\\Windows\\CurrentVersion\\Run /v Example"},
+ {"synthetic":true,"EventID":1,"UtcTime":"2018-08-20T10:04:00Z","Image":"C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\powershell.exe","CommandLine":"powershell.exe -EncodedCommand U1lOVEhFVElD"},
+ {"synthetic":true,"EventID":1,"UtcTime":"2018-08-20T10:05:00Z","Image":"C:\\Windows\\System32\\vssadmin.exe","CommandLine":"vssadmin delete shadows /all"},
+ {"synthetic":true,"EventID":1,"UtcTime":"2018-08-20T10:06:00Z","Image":"C:\\Windows\\System32\\tasklist.exe","CommandLine":"tasklist.exe"}
+]
