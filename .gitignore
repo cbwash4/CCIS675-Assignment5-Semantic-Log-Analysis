@@ -218,3 +218,8 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# Local forensic artifacts and confidential event exports
+forensic_db/
+results/
+data/
